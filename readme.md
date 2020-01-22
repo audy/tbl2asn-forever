@@ -25,4 +25,4 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1 \
 
 ## Credit
 
-Thanks to @milot-mirdita for showing me how to time travel with libfaketime.
+Thanks to [@milot-mirdita](github.com/milot-mirdita) for showing me how to time travel with libfaketime.
