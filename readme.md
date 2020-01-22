@@ -14,3 +14,11 @@ without an error message.
 `docker build --tag tbl2asn .` will run `tbl2asn` with and without faking the
 time. You should only see an error message printed to /dev/stderr on the first
 invokation.
+
+The magic happens here:
+
+```sh
+LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1 \
+  FAKETIME="2019-01-01 00:00:01" \
+  /usr/bin/real-tbl2asn $*
+```
