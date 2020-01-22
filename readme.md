@@ -22,3 +22,7 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1 \
   FAKETIME="2019-01-01 00:00:01" \
   /usr/bin/real-tbl2asn $*
 ```
+
+## Credit
+
+Thanks to @milot-mirdita for showing me how to time travel with libfaketime.
