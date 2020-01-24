@@ -23,6 +23,8 @@ LD_PRELOAD=/usr/lib/x86_64-linux-gnu/faketime/libfaketime.so.1 \
   /usr/bin/real-tbl2asn $*
 ```
 
+Currently, the Docker image will be built with tbl2asn version `25.6-3`
+
 ## Credit
 
 Thanks to [@milot-mirdita](https://github.com/milot-mirdita) for showing me how to time travel with libfaketime.
